@@ -24,9 +24,9 @@ a { color: inherit; }
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  max-width: 1280px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 26px 42px 18px;
+  padding: 22px 34px 16px;
   border-bottom: 1px solid rgba(24, 33, 28, 0.38);
 }
 .brand {
@@ -37,7 +37,7 @@ a { color: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -53,13 +53,13 @@ a { color: inherit; }
 }
 .brand-lockup {
   display: inline-grid;
-  grid-template-columns: 62px 1px minmax(220px, auto);
+  grid-template-columns: 54px 1px minmax(205px, auto);
   gap: 20px;
   align-items: center;
 }
 .brand-symbol {
-  width: 58px;
-  height: 58px;
+  width: 50px;
+  height: 50px;
 }
 .symbol-green {
   fill: var(--green);
@@ -69,7 +69,7 @@ a { color: inherit; }
 }
 .brand-divider {
   width: 1px;
-  height: 58px;
+  height: 50px;
   background: rgba(24, 33, 28, 0.45);
 }
 .brand-wordmark {
@@ -79,7 +79,7 @@ a { color: inherit; }
 }
 .brand-wordmark strong {
   color: var(--green);
-  font-size: clamp(27px, 2.8vw, 39px);
+  font-size: clamp(24px, 2.4vw, 34px);
   font-weight: 500;
   letter-spacing: 0.16em;
   line-height: 0.95;
@@ -87,10 +87,10 @@ a { color: inherit; }
 .brand-wordmark em {
   color: var(--copper);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(11px, 1vw, 14px);
+  font-size: clamp(10px, 0.9vw, 12px);
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0.58em;
+  letter-spacing: 0.5em;
   padding-left: 7px;
 }
 .nav {
@@ -98,10 +98,10 @@ a { color: inherit; }
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: clamp(16px, 2.5vw, 30px);
+  gap: clamp(14px, 2.1vw, 24px);
   color: #262c2a;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -109,25 +109,25 @@ a { color: inherit; }
 .nav a:hover { color: var(--green); }
 .hero {
   display: grid;
-  grid-template-columns: minmax(340px, 0.85fr) minmax(540px, 1fr);
+  grid-template-columns: minmax(310px, 0.82fr) minmax(500px, 1fr);
   gap: 0;
   align-items: stretch;
-  max-width: 1280px;
-  min-height: 590px;
+  max-width: 1180px;
+  min-height: 535px;
   margin: 0 auto;
-  padding: 26px 42px 0;
+  padding: 22px 34px 0;
 }
 .hero-dashboard .hero-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 24px 48px 42px 0;
+  padding: 20px 38px 34px 0;
 }
 .eyebrow {
   margin: 0 0 20px;
   color: var(--copper);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -140,7 +140,7 @@ h1 {
   max-width: 690px;
   margin-bottom: 24px;
   color: #030807;
-  font-size: clamp(54px, 5.6vw, 88px);
+  font-size: clamp(48px, 5vw, 76px);
   font-weight: 500;
   line-height: 0.93;
   letter-spacing: 0;
@@ -155,7 +155,7 @@ h3 { font-size: 22px; font-weight: 500; }
 .lede {
   max-width: 650px;
   color: #3f4441;
-  font-size: clamp(19px, 1.7vw, 24px);
+  font-size: clamp(17px, 1.45vw, 21px);
   line-height: 1.38;
 }
 .hero-actions {
@@ -163,20 +163,20 @@ h3 { font-size: 22px; font-weight: 500; }
   flex-wrap: wrap;
   align-items: center;
   gap: 24px;
-  margin: 38px 0 0;
+  margin: 30px 0 0;
 }
 .button {
   display: inline-flex;
-  min-height: 48px;
+  min-height: 42px;
   align-items: center;
   justify-content: center;
-  padding: 12px 22px;
+  padding: 10px 18px;
   border: 1px solid var(--green);
   border-radius: 2px;
   background: var(--green);
   color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -187,7 +187,7 @@ h3 { font-size: 22px; font-weight: 500; }
   color: var(--green);
   border-bottom: 1px solid var(--copper);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.06em;
   padding-bottom: 8px;
@@ -203,7 +203,7 @@ h3 { font-size: 22px; font-weight: 500; }
 }
 .performance-board {
   border-left: 1px solid rgba(24, 33, 28, 0.18);
-  padding: 30px 0 24px 28px;
+  padding: 24px 0 20px 24px;
 }
 .board-heading {
   display: flex;
@@ -217,7 +217,7 @@ h3 { font-size: 22px; font-weight: 500; }
   margin: 0;
   color: var(--green);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -225,17 +225,17 @@ h3 { font-size: 22px; font-weight: 500; }
 .board-heading span {
   color: #444a47;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 .scorecards {
   display: grid;
-  grid-template-columns: minmax(260px, 1.05fr) minmax(210px, 0.8fr);
-  gap: 26px;
+  grid-template-columns: minmax(230px, 1.05fr) minmax(190px, 0.8fr);
+  gap: 20px;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 .scorecard {
-  min-height: 150px;
+  min-height: 128px;
   display: grid;
   place-items: center;
   align-content: center;
@@ -253,7 +253,7 @@ h3 { font-size: 22px; font-weight: 500; }
 .scorecard small {
   color: var(--green);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -265,9 +265,9 @@ h3 { font-size: 22px; font-weight: 500; }
 }
 .scorecard strong {
   display: block;
-  margin: 12px 0;
+  margin: 9px 0;
   color: var(--green);
-  font-size: clamp(42px, 4.8vw, 64px);
+  font-size: clamp(36px, 4.1vw, 54px);
   font-weight: 500;
   line-height: 0.9;
 }
@@ -287,7 +287,7 @@ h3 { font-size: 22px; font-weight: 500; }
 .performance-line-chart text {
   fill: #363d3a;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 .performance-line-chart .axis {
   stroke: rgba(24, 33, 28, 0.62);
@@ -314,18 +314,18 @@ h3 { font-size: 22px; font-weight: 500; }
 .sp-label,
 .sp-value { fill: var(--copper) !important; }
 .cp-label,
-.sp-label { font-size: 13px !important; }
+.sp-label { font-size: 11px !important; }
 .cp-value,
-.sp-value { font-size: 22px !important; font-weight: 700; }
-.chart-date { font-size: 12px !important; }
+.sp-value { font-size: 19px !important; font-weight: 700; }
+.chart-date { font-size: 11px !important; }
 .chart-legend {
   display: flex;
   justify-content: center;
-  gap: 34px;
+  gap: 26px;
   margin-top: 12px;
   color: #363d3a;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
 }
 .chart-legend span {
   display: inline-flex;
@@ -368,13 +368,13 @@ h3 { font-size: 22px; font-weight: 500; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
-  max-width: 1280px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 16px 42px 30px;
+  padding: 14px 34px 26px;
   border-top: 1px solid rgba(24, 33, 28, 0.2);
   color: #3f4441;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.4;
 }
 .hero-footnote p {
@@ -388,13 +388,13 @@ h3 { font-size: 22px; font-weight: 500; }
 .shield-mark {
   display: inline-grid;
   flex: 0 0 auto;
-  width: 38px;
-  height: 38px;
+  width: 32px;
+  height: 32px;
   place-items: center;
   border: 3px solid var(--green);
   border-radius: 0 0 18px 18px;
   color: var(--green);
-  font-size: 18px;
+  font-size: 15px;
 }
 .grid-three {
   display: grid;
@@ -416,7 +416,7 @@ blockquote p {
 .page-hero { max-width: 880px; padding: 72px 0 52px; }
 .content-list {
   display: grid;
-  gap: 34px;
+  gap: 26px;
   max-width: 860px;
   padding-bottom: 90px;
 }
@@ -465,7 +465,7 @@ blockquote p {
 .letter-header > p:last-child {
   color: var(--muted);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
 }
 .letter-actions {
   margin: -10px 0 34px;
@@ -627,7 +627,7 @@ blockquote p {
   .brand-wordmark strong { font-size: 25px; letter-spacing: 0.12em; }
   .brand-wordmark em { font-size: 11px; letter-spacing: 0.46em; }
   h1 { font-size: 52px; }
-  .lede, .prose { font-size: 18px; }
+  .lede, .prose { font-size: 15px; }
   .scorecard strong { font-size: 52px; }
   .chart-legend { justify-content: flex-start; gap: 18px; }
 }
@@ -642,3 +642,87 @@ blockquote p {
 
 
 
+
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  border-top: 1px solid var(--line);
+}
+.process-steps article {
+  border-top: 3px solid var(--green);
+  padding-top: 18px;
+}
+.process-steps span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--copper);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.process-steps h2 {
+  margin-bottom: 12px;
+  color: var(--green);
+  font-size: clamp(24px, 2.5vw, 34px);
+}
+.process-steps p,
+.invest-cta p {
+  color: var(--muted);
+  font-size: 18px;
+}
+.invest-cta {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+@media (max-width: 980px) {
+  .process-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 620px) {
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+.investment-terms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.investment-terms article {
+  border-top: 3px solid var(--green);
+  padding-top: 18px;
+}
+.investment-terms span {
+  display: block;
+  color: var(--copper);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.investment-terms strong {
+  display: block;
+  margin: 10px 0 12px;
+  color: var(--green);
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 500;
+  line-height: 1.05;
+}
+.investment-terms p {
+  color: var(--muted);
+  font-size: 18px;
+}
+@media (max-width: 820px) {
+  .investment-terms {
+    grid-template-columns: 1fr;
+  }
+}
